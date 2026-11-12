@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.generator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.generator-card {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  width: 340px;
+}
+
+.generator-card h1 {
+  font-size: 1.3rem;
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+
+.number-display {
+  background-color: #f8f9fa;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder-text {
+  color: #7f8c8d;
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0;
+}
+
+.number-value {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2980b9;
+}
+
+.btn-generate {
+  background-color: #3498db;
+  color: white;
+  padding: 0.75rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-generate:hover {
+  background-color: #2980b9;
+}
+
+.btn-generate:active {
+  transform: scale(0.98);
+}
